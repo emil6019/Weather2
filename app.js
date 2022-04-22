@@ -29,7 +29,7 @@ window.addEventListener('load', ()=>{
                 temperatureDegree.textContent = temp
                 temperatureDescription.textContent = description
                 locationTimezone.textContent = country + '/' + region
-                document.getElementById("sekil").src=`http://openweathermap.org/img/wn/${hava}@2x.png`;
+                document.getElementById("sekil").src=`https://openweathermap.org/img/wn/${hava}@2x.png`;
                 let celcius = (temp - 273.15)
                 degreeSection.addEventListener('click', () =>{
                     if(span.textContent === 'K'){
